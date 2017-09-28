@@ -79,7 +79,7 @@ else:
     internal = False
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'doc/index'
 
 # The builder to use when running via the deconst preparer
 # builder = 'deconst-single'
