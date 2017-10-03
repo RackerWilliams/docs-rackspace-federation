@@ -48,6 +48,8 @@ except ImportError:
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.todo',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.extlinks'
 ]
 
@@ -79,7 +81,7 @@ else:
     internal = False
 
 # The master toctree document.
-master_doc = 'doc/index'
+master_doc = 'index'
 
 # The builder to use when running via the deconst preparer
 # builder = 'deconst-single'
